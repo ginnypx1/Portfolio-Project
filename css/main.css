@@ -1,17 +1,22 @@
 /*********** BODY ***********/
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 0;
     padding: 0.1em;
     text-align: right;
 }
-.headline, #main-photo, .portfolio-wrapper, footer {
+.headline,
+#main-photo,
+.portfolio-wrapper,
+footer {
     margin: 0.5em auto;
     max-width: 1000px;
 }
@@ -21,13 +26,15 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-h1, a {
+h1,
+a {
     font-weight: 300;
 }
 h2 {
     font-weight: 500;
 }
-h4, p {
+h4,
+p {
     font-weight: 400;
 }
 h1 {
@@ -38,14 +45,18 @@ h2 {
 }
 
 /*********** COLORS ***********/
-h3, h2 {
+h3,
+h2 {
     color: #feb82f;
     font-weight: 300;
 }
 a:hover, a:visited {
     color: #feb82f
 }
-h1, h4, p, a {
+h1,
+h4,
+p,
+a {
     color: #990033;
 }
 
@@ -91,7 +102,8 @@ h3 {
     margin: 0 auto;
     border: 1px solid #feb82f;
 }
-.project h4, .project p {
+.project h4,
+.project p {
     text-align: center;
     margin: 0.25em;
     padding: 0.25em;
